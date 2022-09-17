@@ -38,7 +38,7 @@ const Edit = ({ add, submittingStatus }) => {
   return (
     <div>
       <h1>Memo</h1>
-      <p>Ｔext: </p>
+      <p>Text: </p>
       <input type="text" value={note} onChange={noteChange} />
       <p>Date: </p>
       <input type="date" value={date} onChange={dateChange} />
