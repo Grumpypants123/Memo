@@ -37,15 +37,15 @@ const Edit = ({ add, submittingStatus }) => {
 
   return (
     <div>
-      <h1>備忘錄</h1>
-      <p>記事：</p>
+      <h1>Memo</h1>
+      <p>Ｔext: </p>
       <input type="text" value={note} onChange={noteChange} />
-      <p>日期：</p>
+      <p>Date: </p>
       <input type="date" value={date} onChange={dateChange} />
-      <p>時間：</p>
+      <p>Time: </p>
       <input type="time" value={time} onChange={timeChange} />
       <button onClick={addItem} className="add">
-        新增
+        Add
       </button>
     </div>
   );
